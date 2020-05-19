@@ -1,11 +1,7 @@
 # Caffeine
 Android Studio Project
 
-img[alt=name_for_alt] {
-  width: 70%;
-  border: none;
-  background: none;
-}
+<img src="ss1" width="40%">.
 
 ![](ss1.png)
 ![](ss2.png)
