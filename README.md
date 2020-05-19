@@ -1,8 +1,8 @@
 # Caffeine
 Android Studio Project
 
-![](ss1.png | width=200)
-![](ss2.png | width=200)
+![](ss1.png =250x250)
+![](ss2.png =250x250)
 ![](ss3.png)
 ![](ss4.png)
 ![](ss5.png)
