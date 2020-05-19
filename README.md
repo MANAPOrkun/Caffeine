@@ -1,7 +1,7 @@
 # Caffeine
 Android Studio Project
 
-<img src="ss1.png" width="40%">.
+<img src="ss1.png" width="40%" margin = "auto">.
 
 ![](ss1.png)
 ![](ss2.png)
