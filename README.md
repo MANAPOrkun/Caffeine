@@ -1,22 +1,54 @@
 # Caffeine
 Android Studio Project
 
-<img src="ss1.png" width="40%" margin = "auto">.
-
-![](ss1.png)
-![](ss2.png)
-![](ss3.png)
-![](ss4.png)
-![](ss5.png)
-![](ss6.png)
-![](ss7.png)
-![](ss8.png)
-![](ss9.png)
-![](ss10.png)
-![](ss11.png)
-![](ss12.png)
-![](ss13.png)
-![](ss14.png)
-![](ss15.png)
-![](ss16.png)
-![](ss17.png)
+<p align="center">
+  <img src="ss1.png" width="50%">.
+</p>
+<p align="center">
+  <img src="ss2.png" width="50%">.
+</p>
+<p align="center">
+  <img src="ss3.png" width="50%">.
+</p>
+<p align="center">
+  <img src="ss4.png" width="50%">.
+</p>
+<p align="center">
+  <img src="ss5.png" width="50%">.
+</p>
+<p align="center">
+  <img src="ss6.png" width="50%">.
+</p>
+<p align="center">
+  <img src="ss7.png" width="50%">.
+</p>
+<p align="center">
+  <img src="ss8.png" width="50%">.
+</p>
+<p align="center">
+  <img src="ss9.png" width="50%">.
+</p>
+<p align="center">
+  <img src="ss10.png" width="50%">.
+</p>
+<p align="center">
+  <img src="ss11.png" width="50%">.
+</p>
+<p align="center">
+  <img src="ss12.png" width="50%">.
+</p>
+<p align="center">
+  <img src="ss13.png" width="50%">.
+</p>
+<p align="center">
+  <img src="ss14.png" width="50%">.
+</p>
+<p align="center">
+  <img src="ss15.png" width="50%">.
+</p>
+<p align="center">
+  <img src="ss16.png" width="50%">.
+</p>
+<p align="center">
+  <img src="ss17.png" width="50%">.
+</p>
