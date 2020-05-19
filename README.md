@@ -4,6 +4,8 @@ The Caffeine has been designed and developed to demonstrate the various filter c
 
 The Caffeine uses Google Firebase services such as Cloud Firestore, Storage, Authentication, etc.
 
+This application has been developed for Mobile Programming Lecture Project.
+
 <details>
   <summary>Home Screen</summary>
 
