@@ -1,5 +1,8 @@
 # Caffeine
-Android Studio Project
+
+The Caffeine has been designed and developed to demonstrate the various filter coffee brewing methods and stages in simple steps and to provide a better coffee brew by presenting helpful tools. A customer can add his/her custom method into the application, purchase products.
+
+The Caffeine uses Google Firebase services such as Cloud Firestore, Storage, Authentication, etc.
 
 <details>
   <summary>Home Screen</summary>
