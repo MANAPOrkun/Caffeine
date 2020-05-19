@@ -1,0 +1,147 @@
+<resources>
+    <string name="app_name">Caffeine</string>
+    <string name="phone">Phone</string>
+    <string name="name">Name</string>
+    <string name="e_mail">E-mail</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="the_smell_of_coffee_mug">The smell of coffee mug</string>
+    <string name="let_s_get_started">Let\'s Get Started!</string>
+    <string name="feel_the_warmth_of_a_coffee_mug">Feel the warmth of a coffee mug</string>
+    <string name="welcome_back">Welcome Back!</string>
+    <string name="sign_in">Sign In</string>
+    <string name="description">Description</string>
+    <string name="header">Header</string>
+    <string name="todo">TODO</string>
+    <string name="brewing_methods">Brewing Methods</string>
+    <string name="price">Price</string>
+    <string name="discover">Discover</string>
+    <string name="logout">Logout</string>
+
+
+    <string-array name="home_functions">
+        <item>Brewing Methods</item>
+        <item>Shop</item>
+        <item>All About Coffee</item>
+        <item>Coffee Places</item>
+        <item>Timer</item>
+    </string-array>
+
+    <string-array name="description_home_functions">
+        <item>Greatest Methods</item>
+        <item>Would you want to buy a coffee?</item>
+        <item>Curious about coffee?</item>
+        <item>See the nearest places</item>
+        <item>On your command</item>
+    </string-array>
+
+    <string-array name="brewing_methods">
+        <item>Chemex</item>
+        <item>Hario V60</item>
+        <item>Kalita Wave</item>
+        <item>French Press</item>
+        <item>Aero Press</item>
+        <item>Moka Pot</item>
+        <item>Siphon</item>
+        <item>Custom Methods</item>
+    </string-array>
+
+    <string-array name="coffee_beans">
+        <item>Starbucks Colombia Narino</item>
+        <item>Starbucks Espresso Fairtrade</item>
+        <item>Starbucks Kenya</item>
+        <item>Starbucks Guatemala Antigua</item>
+        <item>Lavazza Super Crema</item>
+    </string-array>
+
+    <string-array name="bean_description">
+        <item>Starbucks Colombia Narino 250g Description</item>
+        <item>Starbucks Espresso Fairtrade 250g Description</item>
+        <item>Starbucks Kenya 250g Description</item>
+        <item>Starbucks Guatemala Antigua 250g Description</item>
+        <item>Lavazza Super Crema 1000g Description</item>
+    </string-array>
+
+    <string-array name="bean_price">
+        <item>15 €</item>
+        <item>15 €</item>
+        <item>15 €</item>
+        <item>15 €</item>
+        <item>25 €</item>
+    </string-array>
+
+    <string name="title_activity_coffee_places">Map</string>
+    <string name="select">Select</string>
+    <string name="category">Category</string>
+    <string name="shop">Shop</string>
+    <string name="coffee">Coffee</string>
+    <string name="coffee_places">Coffee Places</string>
+    <string name="timer">Timer</string>
+    <string name="filter_coffee">Filter Coffee</string>
+    <string name="espresso">Espresso</string>
+    <string name="machine_equipment"><![CDATA[Machine\n&\nEquipment]]></string>
+    <string name="search">Search</string>
+    <string name="popular">Popular</string>
+    <string name="new_user_click_to_create_your_account">New user? Click to create your account!</string>
+    <string name="remember_me">Remember me</string>
+
+    <string-array name="v60_method">
+        <item>Pour 50.00g of water until all the grounds are evenly saturated</item>
+        <item>Wait for the coffee to bloom</item>
+        <item>Pour another 50.00g of water in spiral rotation</item>
+        <item>Wait for the water to drain through the grounds</item>
+        <item>Pour the remaining 120.00g of water around the edges of the dripper</item>
+        <item>Let the water drain through and when it\'s done discard the filter and server</item>
+    </string-array>
+
+    <string-array name="chemex_method">
+        <item>Pour 50.00g of water until all the grounds are evenly saturated</item>
+        <item>Wait for the coffee to bloom</item>
+        <item>Pour another 50.00g of water in spiral rotation</item>
+        <item>Wait for the water to drain through the grounds</item>
+        <item>Pour the remaining 120.00g of water around the edges of the dripper</item>
+        <item>Let the water drain through and when it\'s done discard the filter and server</item>
+    </string-array>
+
+    <string-array name="kalita_method">
+        <item>Pour 50.00g of water until all the grounds are evenly saturated</item>
+        <item>Wait for the coffee to bloom</item>
+        <item>Pour another 50.00g of water in spiral rotation</item>
+        <item>Wait for the water to drain through the grounds</item>
+        <item>Pour the remaining 120.00g of water around the edges of the dripper</item>
+        <item>Let the water drain through and when it\'s done discard the filter and server</item>
+    </string-array>
+    <string-array name="french_method">
+        <item>Pour 50.00g of water until all the grounds are evenly saturated</item>
+        <item>Wait for the coffee to bloom</item>
+        <item>Pour another 50.00g of water in spiral rotation</item>
+        <item>Wait for the water to drain through the grounds</item>
+        <item>Pour the remaining 120.00g of water around the edges of the dripper</item>
+        <item>Let the water drain through and when it\'s done discard the filter and server</item>
+    </string-array>
+    <string-array name="siphon_method">
+        <item>Pour 50.00g of water until all the grounds are evenly saturated</item>
+        <item>Wait for the coffee to bloom</item>
+        <item>Pour another 50.00g of water in spiral rotation</item>
+        <item>Wait for the water to drain through the grounds</item>
+        <item>Pour the remaining 120.00g of water around the edges of the dripper</item>
+        <item>Let the water drain through and when it\'s done discard the filter and server</item>
+    </string-array>
+    <string-array name="aero_method">
+        <item>Pour 50.00g of water until all the grounds are evenly saturated</item>
+        <item>Wait for the coffee to bloom</item>
+        <item>Pour another 50.00g of water in spiral rotation</item>
+        <item>Wait for the water to drain through the grounds</item>
+        <item>Pour the remaining 120.00g of water around the edges of the dripper</item>
+        <item>Let the water drain through and when it\'s done discard the filter and server</item>
+    </string-array>
+    <string-array name="moka_method">
+        <item>Pour 50.00g of water until all the grounds are evenly saturated</item>
+        <item>Wait for the coffee to bloom</item>
+        <item>Pour another 50.00g of water in spiral rotation</item>
+        <item>Wait for the water to drain through the grounds</item>
+        <item>Pour the remaining 120.00g of water around the edges of the dripper</item>
+        <item>Let the water drain through and when it\'s done discard the filter and server</item>
+    </string-array>
+
+</resources>

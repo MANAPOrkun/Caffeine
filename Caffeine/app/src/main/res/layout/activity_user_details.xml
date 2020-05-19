@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    tools:context=".userDetails"
+    android:padding="0sp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="150sp"
+        android:layout_height="150sp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:background="@color/background"
+        app:cardBackgroundColor="@color/background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:cardCornerRadius="250dp"
+        android:layout_gravity="center">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="0dp">
+
+            <ImageView
+                android:id="@+id/ivImage"
+                android:layout_width="165sp"
+                android:layout_height="165sp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:contentDescription="@string/todo"
+                android:cropToPadding="true"
+                android:focusable="true"
+                android:onClick="addImageClick"
+                android:padding="0sp"
+                android:scaleType="centerCrop"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_action_name" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <RelativeLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bgcard"
+        android:orientation="vertical"
+        android:padding="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView2">
+
+        <TextView
+            android:id="@+id/msg1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="0sp"
+            android:layout_marginTop="0sp"
+            android:layout_marginEnd="0sp"
+            android:fontFamily="@font/average_sans"
+            android:text="Profile"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/msg2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/msg1"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="75dp"
+            android:fontFamily="@font/average_sans"
+            android:text="Time for a change"
+            android:textAlignment="center"
+            android:textColor="#AFAFAF"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_above="@+id/etEmail"
+            android:layout_marginTop="60sp"
+            android:layout_marginBottom="32sp"
+            android:background="@drawable/bg_editext"
+            android:fontFamily="@font/average_sans"
+            android:hint="@string/name"
+            android:inputType="textPersonName"
+            android:paddingLeft="18dp"
+            android:paddingRight="18dp" />
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_above="@+id/etPassword"
+            android:layout_marginBottom="32sp"
+            android:background="@drawable/bg_editext"
+            android:fontFamily="@font/average_sans"
+            android:hint="@string/e_mail"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="18dp"
+            android:paddingRight="18dp" />
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_above="@+id/etPassword2"
+            android:layout_marginTop="0sp"
+            android:layout_marginBottom="32dp"
+            android:background="@drawable/bg_editext"
+            android:fontFamily="@font/average_sans"
+            android:hint="@string/password"
+            android:importantForAutofill="no"
+            android:inputType="textPassword"
+            android:paddingLeft="18dp"
+            android:paddingRight="18dp" />
+
+        <EditText
+            android:id="@+id/etPassword2"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_above="@+id/btnUpdate"
+            android:layout_marginTop="0sp"
+            android:layout_marginBottom="57dp"
+            android:background="@drawable/bg_editext"
+            android:fontFamily="@font/average_sans"
+            android:hint="Validate Password"
+            android:importantForAutofill="no"
+            android:inputType="textPassword"
+            android:paddingLeft="18dp"
+            android:paddingRight="18dp" />
+
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="200sp"
+            android:layout_height="65sp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="80sp"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/bg_btn"
+            android:fontFamily="@font/average_sans"
+            android:onClick="onClickUpdate"
+            android:text="@string/common_google_play_services_update_button"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            app:cornerRadius="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/etPassword" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="48sp"
+            android:layout_height="48sp"
+            android:layout_below="@+id/msg2"
+            android:layout_alignStart="@+id/msg2"
+            android:layout_alignEnd="@+id/msg2"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="70dp"
+            android:background="@drawable/bg_editext" />
+
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/ibBack"
+        android:layout_width="39dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="TODO"
+        android:onClick="onBackClick"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back_arrow" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "287816701678",
+    "firebase_url": "https://caffeine-33021.firebaseio.com",
+    "project_id": "caffeine-33021",
+    "storage_bucket": "caffeine-33021.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:287816701678:android:c65973e8a9ac56fc9bc5ff",
+        "android_client_info": {
+          "package_name": "com.example.caffeine"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "287816701678-h5n1havroq5ijpbguoasqrs9g1v01qr4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBziLEqPMQwcrCr9Vj4xTXkmo7bDVGRy8U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "287816701678-h5n1havroq5ijpbguoasqrs9g1v01qr4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:287816701678:android:16b841c13b54cdd89bc5ff",
+        "android_client_info": {
+          "package_name": "com.example.caffeineadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "287816701678-h5n1havroq5ijpbguoasqrs9g1v01qr4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBziLEqPMQwcrCr9Vj4xTXkmo7bDVGRy8U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "287816701678-h5n1havroq5ijpbguoasqrs9g1v01qr4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:287816701678:android:b8188dd1d504e5959bc5ff",
+        "android_client_info": {
+          "package_name": "com.gigamole.caffeineadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "287816701678-h5n1havroq5ijpbguoasqrs9g1v01qr4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBziLEqPMQwcrCr9Vj4xTXkmo7bDVGRy8U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "287816701678-h5n1havroq5ijpbguoasqrs9g1v01qr4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
