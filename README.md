@@ -1,12 +1,7 @@
 # Caffeine
 Android Studio Project
 
-<p align="center">
-  <img src="ss1.png" width="50%">.
-</p>
-<p align="center">
-  <img src="ss2.png" width="50%">.
-</p>
+<p align="center"><img src="ss1.png" width="50%">.</p><p align="center"><img src="ss2.png" width="50%">.</p>
 <p align="center">
   <img src="ss3.png" width="50%">.
 </p>
